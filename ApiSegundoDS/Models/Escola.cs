@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
         public string? Name { get; set; }
-        public Professor Professor { get; set; }
+        public string? CNPJ { get; set; }
+        public Aluno? Aluno { get; set; }
+        public Professor? Professor { get; set; }
     }
 }

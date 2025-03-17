@@ -7,7 +7,8 @@
         public string? RMA { get; set; }
         public string? Pai { get; set; }
         public string? Mae { get; set; }
-        public Escola Escola { get; set; }
-        public Aluno Aluno { get; set; }
+        public string? ComponenteCurricular { get; set; }
+        public Escola? Escola { get; set; }
+        public Aluno? Aluno { get; set; }
     }
 }
